@@ -1,7 +1,14 @@
 batch
 - some py file missed magic number
-- program add it and decompile with decomplye3 and unpyc3 both
+- program add it and decompile with [decompyle3](https://github.com/rocky/python-decompile3) and [unpyc37](https://github.com/andrew-tavera/unpyc37) both
 - tested under Python 3.7
+
+use case
+
+    pip install -r requirements.txt
+    pip install -e python-decompile3
+    python python_exe_unpacker.py -i [packed executable] -o [unpacked path]
+    python batch.py -i [pyc directory]
 
 ----
 
