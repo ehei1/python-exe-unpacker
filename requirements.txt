@@ -1,6 +1,11 @@
-pefile==2017.9.3
-unpy2exe==0.3
-uncompyle6==2.11.5
-xdis==3.5.5
-pycrypto==2.6.1
+click==7.1.1
 configparser==3.5.0
+-e git+https://github.com/rocky/python-decompile3.git@94edd8020df2b356be1839e82600f7ed70343e5d#egg=decompyle3
+future==0.18.2
+pefile==2017.9.3
+pycryptodome==3.9.7
+six==1.14.0
+spark-parser==1.8.9
+uncompyle6==3.6.4
+unpy2exe==0.3
+xdis==4.2.2

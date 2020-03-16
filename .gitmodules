@@ -1,0 +1,6 @@
+[submodule "unpyc37"]
+	path = unpyc37
+	url = https://github.com/andrew-tavera/unpyc37
+[submodule "python-decompile3"]
+	path = python-decompile3
+	url = https://github.com/rocky/python-decompile3
