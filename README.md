@@ -1,6 +1,7 @@
 batch
 - some py file missed magic number
 - program add it and decompile with decomplye3 and unpyc3 both
+- tested under Python 3.7
 
 ----
 
