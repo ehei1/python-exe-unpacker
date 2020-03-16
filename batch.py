@@ -74,7 +74,6 @@ def main(in_path, intermediate_path, out_path, magic_number) -> None:
                 # it lacks with some file
                 result = subprocess.check_output((sys.executable, unpyc_path, inter_file_path), timeout=5)
                 error = False
-                print('{:.2f}'.format(elapsed_time), end='')
             except subprocess.TimeoutExpired:
                 decompile_failed_files.append(file_name)
                 error = True
